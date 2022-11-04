@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/media.css">
+    <title>sscefalix | Главня</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-logo">
+                <a href="#"><img src="../assets/images/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav-menu">
+                <ul id="contacts">
+                    <li class="contact-item">
+                        <a href="#telegram" id="telegram" class="contact-link" onclick="headerLink('telegram')"><i class="fab fa-telegram fa-2xl"></i></a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="#discord" id="discord" class="contact-link" onclick="headerLink('discord')"><i class="fab fa-discord fa-2xl"></i></a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="#github" id="github" class="contact-link" onclick="headerLink('github')"><i class="fab fa-github fa-2xl"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <main class="info">
+                <div class="main-logo">
+                    <img src="../assets/images/logo.png" alt="Logo">
+                </div>
+                <div class="main-text">
+                    <h1 class="title">sscefalix#0428</h1>
+                    <div class="subtitle">Разаботчик сайтов и discord ботов.</div>
+                </div>
+                <div class="main-actions">
+                    <a href="#discord" onclick="headerLink('discord')" class="main-btn">Написать мне </a>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="designed-by"></div>
+        </div>
+    </footer>
+
+
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/designed.js" background="#303136" footer=".designed-by"></script>
+</body>
+</html>
